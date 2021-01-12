@@ -1,0 +1,32 @@
+[
+    {
+        "img": "../assets/images/bali.jpg",
+        "alt": "Bali",
+        "name": "Bali, Indonesia",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/cabo.jpg",
+        "alt": "Cabo San Lucas",
+        "name": "Cabo San Lucas, Mexico",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/marakesh.jpg",
+        "alt": "Marakesh",
+        "name": "Marakesh, Morocco",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/paris.jpg",
+        "alt": "Paris",
+        "name": "Paris, France",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/santorini-greece.jpg",
+        "alt": "Santorini",
+        "name": "Santorini, Greece",
+        "button": "View Destination"
+    }
+]
