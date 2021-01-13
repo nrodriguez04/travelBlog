@@ -24,9 +24,27 @@
         "button": "View Destination"
     },
     {
-        "img": "../assets/images/santorini-greece.jpg",
+        "img": "../assets/images/santorini.jpg",
         "alt": "Santorini",
         "name": "Santorini, Greece",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/nyc.jpg",
+        "alt": "New York City",
+        "name": "New York, New York, USA",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/tokyo.jpg",
+        "alt": "Tokyo",
+        "name": "Tokyo, Japan",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/dubai.jpg",
+        "alt": "Dubai",
+        "name": "Dubai, United Arab Emirates",
         "button": "View Destination"
     }
 ]

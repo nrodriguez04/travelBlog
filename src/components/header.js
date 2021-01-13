@@ -2,13 +2,14 @@ import { Link } from "gatsby";
 import React from "react";
 import styled from 'styled-components';
 import { FaBars } from 'react-icons/fa';
+import { GiCommercialAirplane } from 'react-icons/gi'
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
 
 const Header = () => {
   return (
     <Nav>
-      <NavLink to="/">TRVLR</NavLink>
+      <NavLink to="/">TRVLR <Airplane /></NavLink>
       <Bars />
       <NavMenu>
         {menuData.map((item, index) => (
@@ -18,7 +19,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-          <Button primary="true" round="true" to="/trips">Book a Flight</Button>
+        <Button primary="true" round="true" to="https://expedia.com" target="_blank">Book a Flight</Button>
       </NavBtn>
     </Nav>
   );
@@ -36,7 +37,7 @@ const Nav = styled.nav`
   position: relative;
 `
 const NavLink = styled(Link)`
-  color: #fff;
+  color: #FFFBFC;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -44,11 +45,17 @@ const NavLink = styled(Link)`
   height: 100%;
   font-weight: 500;
   cursor: pointer;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.3rem;
+`
+
+const Airplane = styled(GiCommercialAirplane)`
+  color: #FFFBFC;
 `
 
 const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: #FFFBFC;
 
   @media screen and (max-width: 768px) {
     display: block;

@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <Trips />
+    <Trips heading="Hey Alexa, play You Should Be Here...by Kehalni"/>
   </Layout>
 );
 
