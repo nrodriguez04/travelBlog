@@ -1,4 +1,5 @@
 import React from "react"
+import Email from "../components/Email";
 import Hero from "../components/Hero";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Trips heading="Hey Alexa, play You Should Be Here...by Kehalni"/>
     <Testimonials />
     <Stats />
+    <Email />
   </Layout>
 );
 
