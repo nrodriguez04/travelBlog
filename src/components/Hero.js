@@ -102,6 +102,6 @@ const HeroH1 = styled.h1`
 const HeroP = styled.p`
     font-size: clamp(.5rem, 2vw, 2rem);
     margin-bottom: 2rem;
-    font-weight: 400;
-    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-family: 'Spartan', sans-serif;
 `
